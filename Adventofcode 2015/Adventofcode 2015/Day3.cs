@@ -5,14 +5,14 @@ namespace Adventofcode_2015
 {
     class Day3
     {
-        static void main(string[] args)
+        static void main()
         {
             bool robot = false;
             int x = 100;
             int y = 100;
             int x2 = 100;
             int y2 = 100;
-            string lines = System.IO.File.ReadAllText(@"C:\Users\antho\Downloads\input.txt");
+            string lines = System.IO.File.ReadAllText(@"C:\Users\antho\Documents\Repo\AdventOfCode2015\Inputs\day3.txt");
             int[,]book = new int[200,200];
             book[x, y]=2;
             for (int i = 0; i < lines.Length; i++)

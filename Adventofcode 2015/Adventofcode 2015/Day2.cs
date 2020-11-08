@@ -4,10 +4,10 @@ namespace Adventofcode_2015
 {
     class Day2
     {
-        static void main(string[] args)
+        static void main()
         {
             int res = 0;
-            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\antho\Downloads\input.txt");
+            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\antho\Documents\Repo\AdventOfCode2015\Inputs\day2.txt");
             for(int i = 0; i < lines.Length; i++)
             {
                 string[] num = lines[i].Split('x');

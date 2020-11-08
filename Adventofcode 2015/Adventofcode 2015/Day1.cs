@@ -6,7 +6,7 @@ namespace Adventofcode_2015
     {
         public void main()
         {
-            string lines = System.IO.File.ReadAllText(@"C:\Users\antho\Downloads\input.txt");
+            string lines = System.IO.File.ReadAllText(@"C:\Users\antho\Documents\Repo\AdventOfCode2015\Inputs\day1.txt");
             int res = 0;
             foreach (char c in lines)
             {
