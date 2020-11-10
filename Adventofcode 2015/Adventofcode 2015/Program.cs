@@ -9,7 +9,7 @@ namespace Adventofcode_2015
     {
         static void Main(string[] args)
         {
-            Day6b program = new Day6b();
+            Day7 program = new Day7();
             program.main(); 
         }
 
